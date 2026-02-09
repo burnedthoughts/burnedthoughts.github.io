@@ -11,3 +11,13 @@
   flex: 1;
   padding: var(--space-2xl) 0;
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 0 var(--space-md);
+  }
+
+  .main {
+    padding: var(--space-xl) 0;
+  }
+}

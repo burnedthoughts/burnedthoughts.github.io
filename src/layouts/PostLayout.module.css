@@ -26,3 +26,13 @@
 .updated {
   font-style: italic;
 }
+
+@media (max-width: 600px) {
+  .title {
+    font-size: var(--font-size-xl);
+  }
+
+  .header {
+    margin-bottom: var(--space-xl);
+  }
+}

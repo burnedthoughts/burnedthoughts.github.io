@@ -4,11 +4,52 @@ import styles from './Header.module.css';
 ---
 
 <header class={styles.header}>
-  <a href="/" class={styles.logo}>burnedthoughts</a>
-  <nav class={styles.nav}>
+  <div class={styles.topRow}>
+    <a href="/" class={styles.logo}>burnedthoughts</a>
+    <div class={styles.topRight}>
+      <ThemeToggle />
+      <button
+        class={styles.burger}
+        id="menu-toggle"
+        type="button"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <svg class={styles.burgerIcon} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+        <svg class={styles.closeIcon} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <nav class={styles.nav} id="nav-menu">
     <a href="/blog" class={styles.link}>blog</a>
     <a href="/about" class={styles.link}>about</a>
     <a href="/contact" class={styles.link}>contact</a>
-    <ThemeToggle />
+    <span class={styles.desktopOnly}><ThemeToggle /></span>
   </nav>
 </header>
+
+<script>
+  const burger = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav-menu');
+
+  burger?.addEventListener('click', () => {
+    const expanded = burger.getAttribute('aria-expanded') === 'true';
+    burger.setAttribute('aria-expanded', String(!expanded));
+    nav?.classList.toggle('open');
+  });
+
+  // Close menu when a link is clicked
+  nav?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      burger?.setAttribute('aria-expanded', 'false');
+      nav?.classList.remove('open');
+    });
+  });
+</script>

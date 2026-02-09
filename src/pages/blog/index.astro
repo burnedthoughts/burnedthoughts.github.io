@@ -9,12 +9,30 @@ const allPosts = await getCollection('blog', ({ data }) => {
 ---
 
 <BaseLayout title="Blog" description="All posts from burnedthoughts.">
-  <h1 style="font-family: var(--font-serif); font-size: var(--font-size-2xl); font-weight: 600; letter-spacing: var(--letter-spacing-tight); margin-bottom: var(--space-2xl);">
-    Archive
-  </h1>
+  <h1 class="heading">Archive</h1>
   {allPosts.length > 0 ? (
     <PostList posts={allPosts} />
   ) : (
-    <p style="color: var(--color-text-muted);">Nothing here yet.</p>
+    <p class="empty">Nothing here yet.</p>
   )}
 </BaseLayout>
+
+<style>
+  .heading {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-2xl);
+    font-weight: 600;
+    letter-spacing: var(--letter-spacing-tight);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .empty {
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 600px) {
+    .heading {
+      font-size: var(--font-size-xl);
+    }
+  }
+</style>

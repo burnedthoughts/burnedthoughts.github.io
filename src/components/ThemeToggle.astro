@@ -3,8 +3,7 @@ import styles from './ThemeToggle.module.css';
 ---
 
 <button
-  class={styles.toggle}
-  id="theme-toggle"
+  class={`${styles.toggle} theme-toggle`}
   type="button"
   aria-label="Toggle dark mode"
 >
@@ -27,12 +26,12 @@ import styles from './ThemeToggle.module.css';
 </button>
 
 <script>
-  const toggle = document.getElementById('theme-toggle');
-
-  toggle?.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    const next = current === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
+  document.querySelectorAll('.theme-toggle').forEach((toggle) => {
+    toggle.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
   });
 </script>
