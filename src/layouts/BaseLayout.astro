@@ -25,6 +25,10 @@ const { title, description, ogImage, articleDate } = Astro.props;
         document.documentElement.setAttribute('data-theme', saved || preferred);
       })();
     </script>
+    <!-- Umami analytics — production only -->
+    {import.meta.env.PROD && (
+      <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="431a9028-1647-4c44-b173-a317eba811c7"></script>
+    )}
   </head>
   <body>
     <div class={styles.wrapper}>
@@ -34,14 +38,5 @@ const { title, description, ogImage, articleDate } = Astro.props;
       </main>
       <Footer />
     </div>
-    <!-- Umami analytics — production only -->
-    {import.meta.env.PROD && (
-      <script
-        is:inline
-        defer
-        src="https://cloud.umami.is/script.js"
-        data-website-id="431a9028-1647-4c44-b173-a317eba811c7"
-      />
-    )}
   </body>
 </html>
