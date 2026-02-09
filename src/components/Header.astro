@@ -1,0 +1,14 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+import styles from './Header.module.css';
+---
+
+<header class={styles.header}>
+  <a href="/" class={styles.logo}>burnedthoughts</a>
+  <nav class={styles.nav}>
+    <a href="/blog" class={styles.link}>blog</a>
+    <a href="/about" class={styles.link}>about</a>
+    <a href="/contact" class={styles.link}>contact</a>
+    <ThemeToggle />
+  </nav>
+</header>

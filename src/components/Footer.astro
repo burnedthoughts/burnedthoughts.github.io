@@ -1,0 +1,20 @@
+---
+import SubscribeForm from './SubscribeForm.astro';
+import styles from './Footer.module.css';
+---
+
+<footer class={styles.footer}>
+  <div class={styles.subscribe}>
+    <SubscribeForm />
+  </div>
+  <div class={styles.bottom}>
+    <div class={styles.links}>
+      <a href="/rss.xml" class={styles.link}>rss</a>
+    </div>
+    <p class={styles.copy}>
+      &copy; {new Date().getFullYear()} burnedthoughts
+      <span class={styles.separator}>&middot;</span>
+      Updated Feb 8, 2026
+    </p>
+  </div>
+</footer>

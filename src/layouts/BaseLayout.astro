@@ -1,0 +1,47 @@
+---
+import SEOHead from '../components/SEOHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+import type { SEOProps } from '../types/components';
+import styles from './BaseLayout.module.css';
+
+interface Props extends SEOProps {}
+
+const { title, description, ogImage, articleDate } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <SEOHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} />
+    <!-- Theme init — runs before paint to prevent flash -->
+    <script is:inline>
+      (function () {
+        const saved = localStorage.getItem('theme');
+        const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 'dark'
+          : 'light';
+        document.documentElement.setAttribute('data-theme', saved || preferred);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class={styles.wrapper}>
+      <Header />
+      <main class={styles.main}>
+        <slot />
+      </main>
+      <Footer />
+    </div>
+    <!-- Umami analytics — production only -->
+    {import.meta.env.PROD && (
+      <script
+        is:inline
+        defer
+        src="https://cloud.umami.is/script.js"
+        data-website-id="UMAMI_WEBSITE_ID"
+      />
+    )}
+  </body>
+</html>

@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostList from '../../components/PostList.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+---
+
+<BaseLayout title="Blog" description="All posts from burnedthoughts.">
+  <h1 style="font-family: var(--font-serif); font-size: var(--font-size-2xl); font-weight: 600; letter-spacing: var(--letter-spacing-tight); margin-bottom: var(--space-2xl);">
+    Archive
+  </h1>
+  {allPosts.length > 0 ? (
+    <PostList posts={allPosts} />
+  ) : (
+    <p style="color: var(--color-text-muted);">Nothing here yet.</p>
+  )}
+</BaseLayout>

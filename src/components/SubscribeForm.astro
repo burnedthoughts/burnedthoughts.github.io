@@ -1,0 +1,23 @@
+---
+import styles from './SubscribeForm.module.css';
+---
+
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/burnedthoughts"
+  method="post"
+  target="_blank"
+  class={styles.form}
+>
+  <label for="bd-email" class={styles.label}>Get new posts by email</label>
+  <div class={styles.row}>
+    <input
+      type="email"
+      name="email"
+      id="bd-email"
+      placeholder="you@example.com"
+      required
+      class={styles.input}
+    />
+    <button type="submit" class={styles.button}>Subscribe</button>
+  </div>
+</form>
