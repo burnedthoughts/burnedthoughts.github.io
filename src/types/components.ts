@@ -35,6 +35,16 @@ export interface PostListProps {
   posts: PostEntry[];
 }
 
+export interface ReadingEntry {
+  url: string;
+  title: string;
+  author: string | null;
+  publishedDate: string | null;
+  addedDate: string;
+  thoughts?: string;
+  rating?: number;
+}
+
 export const SITE: SiteConfig = {
   title: 'burnedthoughts',
   description: 'Anonymous thoughts, reduced to embers.',

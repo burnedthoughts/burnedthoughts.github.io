@@ -7,11 +7,11 @@ draft: false
 
 This is the beginning.
 
-I used to write on Substack — until they had a data breach and I decided I didn't want someone else holding the keys to my words. Before that, I had a personal site that I abandoned. This time I'm doing it differently: **self-hosted, anonymous, owned entirely by me.**
+I used to write on [Substack](https://substack.com/@burnedthoughts?) until about a week ago, when I found out they'd suffered a [data breach](https://haveibeenpwned.com/Breach/Substack). That was enough for me. I didn't want someone else holding the keys to my words any longer. So here we are: self-hosted, anonymous, and **owned entirely by me.**
 
 ## Why "burnedthoughts"?
 
-Some thoughts are worth burning. Not because they're bad, but because the act of writing them down — and letting them go — is the point. What remains after the fire is what matters.
+Some thoughts are worth burning. Not because they're bad, but because the act of writing them down, and letting them go, is the point. What remains after the fire is what matters.
 
 ## What to expect
 
