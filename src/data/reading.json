@@ -1,5 +1,185 @@
 [
   {
+    "url": "https://simonwillison.net/2026/Feb/9/ai-intensifies-work/",
+    "title": "Simon Willison’s Weblog",
+    "author": "Simon Willison",
+    "publishedDate": null,
+    "addedDate": "2026-03-02",
+    "thoughts": "Relatable",
+    "rating": 3
+  },
+  {
+    "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
+    "title": "How will OpenAI compete?",
+    "author": "Benedict Evans",
+    "publishedDate": "2026-02-19",
+    "addedDate": "2026-03-02",
+    "thoughts": "Can openAI survive",
+    "rating": 4
+  },
+  {
+    "url": "https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html",
+    "title": "Cleaning up merged git branches: a one-liner from the CIA&#39;s leaked dev docs",
+    "author": "Spencer Dixon",
+    "publishedDate": "2026-02-20",
+    "addedDate": "2026-03-02",
+    "thoughts": "Super useful git command",
+    "rating": 5
+  },
+  {
+    "url": "https://lithub.com/the-work-behind-the-writing-on-writers-and-their-day-jobs/",
+    "title": "The Work Behind the Writing: On Writers and Their Day Jobs",
+    "author": "Ed Simon",
+    "publishedDate": "2026-01-14",
+    "addedDate": "2026-03-02",
+    "thoughts": "Writing is truly a privilege and an honour for someone else to sit and read your work",
+    "rating": 4
+  },
+  {
+    "url": "https://www.newyorker.com/magazine/2026/02/16/what-is-claude-anthropic-doesnt-know-either",
+    "title": "What Is Claude? Anthropic Doesn’t Know, Either",
+    "author": "Gideon Lewis-Kraus",
+    "publishedDate": "2026-02-09",
+    "addedDate": "2026-03-02",
+    "thoughts": "Cool insights about the inner workings of Anthropic",
+    "rating": 4
+  },
+  {
+    "url": "https://www.theatlantic.com/culture/2026/02/pressure-olympics-malinin-shiffrin/686097/",
+    "title": "What Pressure Does to an Athlete’s Body",
+    "author": "Sally Jenkins",
+    "publishedDate": "2026-02-21",
+    "addedDate": "2026-03-02",
+    "thoughts": "How pressure manifests in the body and mind",
+    "rating": 3
+  },
+  {
+    "url": "https://www.todayintabs.com/p/a-i-isn-t-people",
+    "title": "A.I. Isn't People",
+    "author": "Rusty Foster",
+    "publishedDate": "2026-02-23",
+    "addedDate": "2026-03-02",
+    "thoughts": "Blurring the line between software and real people",
+    "rating": 5
+  },
+  {
+    "url": "https://www.nytimes.com/2026/02/26/opinion/crypto-trump-bitcoin-clarity-genius.html",
+    "title": "Untitled",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-02",
+    "thoughts": "The future looks bleak for Crypto",
+    "rating": 3
+  },
+  {
+    "url": "https://boristane.com/blog/how-i-use-claude-code/",
+    "title": "How I Use Claude Code",
+    "author": "Boris Tane",
+    "publishedDate": "2026-02-10",
+    "addedDate": "2026-03-01",
+    "thoughts": "Strong case for adding an annotated plan document sitting between dev and code",
+    "rating": 4
+  },
+  {
+    "url": "https://www.tolans.com/relay/how-we-hire-engineers-when-ai-writes-our-code",
+    "title": "How We Hire Engineers When AI Writes Our Code | Tolans.com",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-01",
+    "thoughts": "A sensible approach to hiring in tech in the age of AI",
+    "rating": 4
+  },
+  {
+    "url": "https://lighthousesoftware.co.uk/projects/from-noise-to-image/",
+    "title": "From Noise to Image",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-01",
+    "thoughts": "Really cool interactive way of visualising diffusion for image gen",
+    "rating": 5
+  },
+  {
+    "url": "https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/",
+    "title": "Cognitive Debt: When Velocity Exceeds Comprehension",
+    "author": "Ganesh Pagade",
+    "publishedDate": "2026-02-17",
+    "addedDate": "2026-03-01",
+    "thoughts": "Yet another reminder to review AI code more closely",
+    "rating": 4
+  },
+  {
+    "url": "https://pseudosingleton.com/leaving-google-improved-my-life/",
+    "title": "Leaving Google has actively improved my life",
+    "author": null,
+    "publishedDate": "2026-02-27",
+    "addedDate": "2026-02-28",
+    "thoughts": "The case to DeGoggle",
+    "rating": 3
+  },
+  {
+    "url": "https://www.origami-robotics.com/blog/dexterity-deadlocks.html",
+    "title": "The Dexterity Deadlock",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-02-28",
+    "thoughts": "Super interesting",
+    "rating": 4
+  },
+  {
+    "url": "https://joelgouveia.substack.com/p/the-death-of-spotify-why-streaming",
+    "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
+    "author": "Joel Gouveia",
+    "publishedDate": "2026-02-25",
+    "addedDate": "2026-02-28",
+    "thoughts": "Interesting take on the shift from Mass Audience to the Micro-Community",
+    "rating": 4
+  },
+  {
+    "url": "https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/",
+    "title": "What AI coding costs you",
+    "author": "Tom Wojcik",
+    "publishedDate": "2026-02-15",
+    "addedDate": "2026-02-28",
+    "thoughts": "Reminder to stay cognitively engaged while coding with AI",
+    "rating": 4
+  },
+  {
+    "url": "https://lucijagregov.com/2026/02/26/the-future-of-ai/",
+    "title": "The Future of AI",
+    "author": "Lucija Gregov",
+    "publishedDate": "2026-02-26",
+    "addedDate": "2026-02-28",
+    "thoughts": "Interesting arguments for developing human wisdom in the race for AGI",
+    "rating": 5
+  },
+  {
+    "url": "https://www.jerpint.io/blog/2026-02-25-humans-md/",
+    "title": "HUMANS.md",
+    "author": null,
+    "publishedDate": "2026-02-25",
+    "addedDate": "2026-02-28",
+    "thoughts": "Not a bad shout",
+    "rating": 3
+  },
+  {
+    "url": "https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/",
+    "title": "I Verified My LinkedIn Identity. Here's What I Actually Handed Over.",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-02-28",
+    "thoughts": "Insane how a simple ID check turns your face into training data for AI companies",
+    "rating": 4
+  },
+  {
+    "url": "https://susam.net/attention-media-vs-social-networks.html",
+    "title": "Attention Media ≠ Social Networks",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-02-28",
+    "thoughts": "Social media morphing into attention media justifies my decision to quit it all",
+    "rating": 4
+  },
+  {
     "url": "https://www.hollywoodreporter.com/business/digital/super-bowl-commercials-ai-best-worst-video-1236500292/",
     "title": "AI Companies Sold Us Their Vision of the Future at the Super Bowl. Here&#8217;s Why We Should Reject It",
     "author": "Steven Zeitchik",
