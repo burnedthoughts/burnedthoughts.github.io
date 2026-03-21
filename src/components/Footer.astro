@@ -1,6 +1,26 @@
 ---
 import SubscribeForm from './SubscribeForm.astro';
 import styles from './Footer.module.css';
+import FormattedDate from './FormattedDate.astro';
+import { getCollection } from 'astro:content';
+import readingData from '../data/reading.json';
+
+// Get latest blog post date (pubDate or updatedDate)
+const allPosts = await getCollection('blog', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+const latestBlogDate = allPosts.reduce((max, post) => {
+  const date = post.data.updatedDate ?? post.data.pubDate;
+  return date > max ? date : max;
+}, new Date(0));
+
+// Get latest reading log date
+const latestReadingDate = readingData.reduce((max, entry) => {
+  const date = new Date(entry.addedDate);
+  return date > max ? date : max;
+}, new Date(0));
+
+const lastUpdated = latestBlogDate > latestReadingDate ? latestBlogDate : latestReadingDate;
 ---
 
 <footer class={styles.footer}>
@@ -14,7 +34,7 @@ import styles from './Footer.module.css';
     <p class={styles.copy}>
       &copy; {new Date().getFullYear()} burnedthoughts
       <span class={styles.separator}>&middot;</span>
-      Updated Feb 8, 2026
+      Updated <FormattedDate date={lastUpdated} />
     </p>
   </div>
 </footer>

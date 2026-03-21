@@ -1,5 +1,221 @@
 [
   {
+    "url": "https://yuedoesntwanttorest.substack.com/p/a-hunger-for-more-than-one-life",
+    "title": "A Hunger for more than one life.",
+    "author": "Xiǎoyuè",
+    "publishedDate": "2026-02-20",
+    "addedDate": "2026-03-21",
+    "thoughts": "Nice introspective read",
+    "rating": 3
+  },
+  {
+    "url": "https://sharif.io/looking-stupid",
+    "title": "Willingness to look stupid is a genuine moat in creative work",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-20",
+    "thoughts": "I should really look stupid more often",
+    "rating": 4
+  },
+  {
+    "url": "https://thelastfarm.substack.com/p/the-low-tech-brilliance-of-iranian",
+    "title": "The low-tech brilliance of Iranian design",
+    "author": "TheLastFarm",
+    "publishedDate": "2026-03-15",
+    "addedDate": "2026-03-20",
+    "thoughts": "Genius designs",
+    "rating": 4
+  },
+  {
+    "url": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
+    "title": "‘Your Frustration Is the Product’",
+    "author": "@gruber",
+    "publishedDate": null,
+    "addedDate": "2026-03-20",
+    "thoughts": "Online media is only getting worse",
+    "rating": 4
+  },
+  {
+    "url": "https://pluralistic.net/2025/03/13/electronic-whipping/#youre-next",
+    "title": "Pluralistic: The future of Amazon coders is the present of Amazon warehouse workers (13 Mar 2025)",
+    "author": "Cory Doctorow",
+    "publishedDate": "2025-03-13",
+    "addedDate": "2026-03-20",
+    "thoughts": "The future looks bleak for fellow techies",
+    "rating": 4
+  },
+  {
+    "url": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
+    "title": "How We Hacked McKinsey's AI Platform",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-20",
+    "thoughts": "Reminder: security is very important",
+    "rating": 3
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-03-06/roblox-s-teen-millionaires-are-disrupting-the-gaming-industry",
+    "title": "Untitled",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-20",
+    "thoughts": "Potentially a reason to invest in Roblox",
+    "rating": 3
+  },
+  {
+    "url": "https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/",
+    "title": "Have a Fucking Website",
+    "author": "merritt k",
+    "publishedDate": "2026-03-14",
+    "addedDate": "2026-03-19",
+    "thoughts": "Valid",
+    "rating": 3
+  },
+  {
+    "url": "https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/",
+    "title": "Filesystems are having a moment",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-19",
+    "thoughts": "Interesting...",
+    "rating": 4
+  },
+  {
+    "url": "https://geohot.github.io/blog/jekyll/update/2026/01/18/how-do-i-stop.html",
+    "title": "how do I stop participating?",
+    "author": "the singularity is nearer",
+    "publishedDate": "2026-01-17",
+    "addedDate": "2026-03-19",
+    "thoughts": "Time to find something truly worth working on",
+    "rating": 3
+  },
+  {
+    "url": "https://neilmadden.blog/2026/03/02/why-i-dont-use-llms-for-programming/",
+    "title": "Why I don’t use LLMs for programming",
+    "author": "@neilmaddog",
+    "publishedDate": "2026-03-02",
+    "addedDate": "2026-03-19",
+    "thoughts": "The essene of learning",
+    "rating": 3
+  },
+  {
+    "url": "https://mathenchant.wordpress.com/2026/03/12/in-praise-of-stupid-questions/",
+    "title": "In Praise of Stupid Questions",
+    "author": "jamespropp",
+    "publishedDate": "2026-03-12",
+    "addedDate": "2026-03-19",
+    "thoughts": "A solid reason to always ask questions",
+    "rating": 3
+  },
+  {
+    "url": "https://www.science.org/content/article/why-i-may-hire-ai-instead-graduate-student",
+    "title": "Untitled",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-19",
+    "thoughts": "An uncomfortable truth",
+    "rating": 3
+  },
+  {
+    "url": "https://sebi.io/posts/2026-03-14-allow-me-to-get-to-know-you-mistakes-and-all/",
+    "title": "Allow me to get to know you, mistakes and all",
+    "author": "Sebastian Aigner",
+    "publishedDate": "2026-03-14",
+    "addedDate": "2026-03-19",
+    "thoughts": "Subtle reminder to never use AI for my writing",
+    "rating": 3
+  },
+  {
+    "url": "https://www.baldurbjarnason.com/2026/the-two-worlds-of-programming/",
+    "title": "The two worlds of programming: why developers who make the same observations about LLMs come to opposite conclusions",
+    "author": "Baldur Bjarnason",
+    "publishedDate": "2026-03-16",
+    "addedDate": "2026-03-19",
+    "thoughts": "Valid critique of the direction software is heading in especially in age of AI",
+    "rating": 4
+  },
+  {
+    "url": "https://colossus.com/article/we-have-learned-nothing-startup-pundits/",
+    "title": "Startup Punditry’s 25 Years of Failure",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-19",
+    "thoughts": "Surprise surprise there is no good startup founder advice",
+    "rating": 5
+  },
+  {
+    "url": "https://paulgraham.com/brandage.html",
+    "title": "The Brand Age",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-07",
+    "thoughts": "Super interesting read on 'golden age'",
+    "rating": 5
+  },
+  {
+    "url": "https://uphack.io/blog/post/the-illusion-of-building/",
+    "title": "The two pages",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-07",
+    "thoughts": "Great summary on the current state of \"building with AI\"",
+    "rating": 4
+  },
+  {
+    "url": "https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/",
+    "title": "Nobody Gets Promoted for Simplicity",
+    "author": null,
+    "publishedDate": "2026-03-03",
+    "addedDate": "2026-03-07",
+    "thoughts": "Sad but true",
+    "rating": 4
+  },
+  {
+    "url": "https://ogirardot.writizzy.com/p/good-software-knows-when-to-stop",
+    "title": "Good software knows when to stop",
+    "author": "Olivier Girardot",
+    "publishedDate": "2026-03-05",
+    "addedDate": "2026-03-07",
+    "thoughts": "True",
+    "rating": 3
+  },
+  {
+    "url": "https://yasint.dev/we-might-all-be-ai-engineers-now/",
+    "title": "We Might All Be AI Engineers Now",
+    "author": null,
+    "publishedDate": "2026-03-05",
+    "addedDate": "2026-03-07",
+    "thoughts": "A somewhat uncomfortable realisation",
+    "rating": 3
+  },
+  {
+    "url": "https://www.fast.ai/posts/2026-01-28-dark-flow/",
+    "title": "Breaking the Spell of Vibe Coding",
+    "author": "Rachel Thomas",
+    "publishedDate": null,
+    "addedDate": "2026-03-07",
+    "thoughts": "Yet another timely reminder to keep learning",
+    "rating": 4
+  },
+  {
+    "url": "https://www.gorillasun.de/blog/the-importance-of-sketching-with-code/?utm_source=Pinterest&utm_medium=organic",
+    "title": "The Importance of Sketching with Code",
+    "author": "Ahmad Moussa",
+    "publishedDate": "2023-05-07",
+    "addedDate": "2026-03-07",
+    "thoughts": "The intersection of art and tech is always cool to see",
+    "rating": 3
+  },
+  {
+    "url": "https://quarter--mile.com/vanity-activities",
+    "title": "Vanity Activities",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-03",
+    "thoughts": "No more productivity optimisation for me",
+    "rating": 4
+  },
+  {
     "url": "https://simonwillison.net/2026/Feb/9/ai-intensifies-work/",
     "title": "Simon Willison’s Weblog",
     "author": "Simon Willison",
@@ -64,9 +280,9 @@
   },
   {
     "url": "https://www.nytimes.com/2026/02/26/opinion/crypto-trump-bitcoin-clarity-genius.html",
-    "title": "Untitled",
-    "author": null,
-    "publishedDate": null,
+    "title": "Crypto Is Pointless. Not Even the White House Can Fix That.",
+    "author": "Ryan Cummings and Jared Bernstein",
+    "publishedDate": "2026-02-26",
     "addedDate": "2026-03-02",
     "thoughts": "The future looks bleak for Crypto",
     "rating": 3
