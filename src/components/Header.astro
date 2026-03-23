@@ -37,20 +37,25 @@ import styles from './Header.module.css';
 </header>
 
 <script>
-  const burger = document.getElementById('menu-toggle');
-  const nav = document.getElementById('nav-menu');
+  function initMenu() {
+    const burger = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav-menu');
 
-  burger?.addEventListener('click', () => {
-    const expanded = burger.getAttribute('aria-expanded') === 'true';
-    burger.setAttribute('aria-expanded', String(!expanded));
-    nav?.classList.toggle('open');
-  });
-
-  // Close menu when a link is clicked
-  nav?.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      burger?.setAttribute('aria-expanded', 'false');
-      nav?.classList.remove('open');
+    burger?.addEventListener('click', () => {
+      const expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', String(!expanded));
+      nav?.classList.toggle('open');
     });
-  });
+
+    // Close menu when a link is clicked
+    nav?.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        burger?.setAttribute('aria-expanded', 'false');
+        nav?.classList.remove('open');
+      });
+    });
+  }
+
+  initMenu();
+  document.addEventListener('astro:after-swap', initMenu);
 </script>

@@ -26,12 +26,17 @@ import styles from './ThemeToggle.module.css';
 </button>
 
 <script>
-  document.querySelectorAll('.theme-toggle').forEach((toggle) => {
-    toggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
+  function initThemeToggle() {
+    document.querySelectorAll('.theme-toggle').forEach((toggle) => {
+      toggle.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
     });
-  });
+  }
+
+  initThemeToggle();
+  document.addEventListener('astro:after-swap', initThemeToggle);
 </script>
