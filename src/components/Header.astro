@@ -1,6 +1,27 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
 import styles from './Header.module.css';
+import type { ReadingEntry } from '../types/components';
+import readingData from '../data/reading.json';
+
+// Compute latest reading month slug at build time for direct navigation
+const entries: ReadingEntry[] = readingData as ReadingEntry[];
+let readingHref = '/reading';
+let latestKey = '';
+
+for (const entry of entries) {
+  const d = new Date(entry.addedDate + 'T00:00:00Z');
+  const sortKey = `${d.getUTCFullYear()}-${String(d.getUTCMonth()).padStart(2, '0')}`;
+  if (sortKey > latestKey) {
+    latestKey = sortKey;
+    const label = d.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      timeZone: 'UTC',
+    });
+    readingHref = `/reading/${label.toLowerCase().replace(/\s+/g, '-')}`;
+  }
+}
 ---
 
 <header class={styles.header}>
@@ -29,7 +50,7 @@ import styles from './Header.module.css';
   </div>
   <nav class={styles.nav} id="nav-menu">
     <a href="/blog" class={styles.link}>blog</a>
-    <a href="/reading" class={styles.link}>reading</a>
+    <a href={readingHref} class={styles.link}>reading</a>
     <a href="/about" class={styles.link}>about</a>
     <a href="/contact" class={styles.link}>contact</a>
     <span class={styles.desktopOnly}><ThemeToggle /></span>
@@ -37,25 +58,26 @@ import styles from './Header.module.css';
 </header>
 
 <script>
-  function initMenu() {
-    const burger = document.getElementById('menu-toggle');
-    const nav = document.getElementById('nav-menu');
+  // Use event delegation so handlers survive View Transitions swaps
+  document.addEventListener('click', (e) => {
+    const target = e.target as Element;
 
-    burger?.addEventListener('click', () => {
+    // Burger toggle
+    if (target.closest('#menu-toggle')) {
+      const burger = document.getElementById('menu-toggle')!;
+      const nav = document.getElementById('nav-menu');
       const expanded = burger.getAttribute('aria-expanded') === 'true';
       burger.setAttribute('aria-expanded', String(!expanded));
       nav?.classList.toggle('open');
-    });
+      return;
+    }
 
-    // Close menu when a link is clicked
-    nav?.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        burger?.setAttribute('aria-expanded', 'false');
-        nav?.classList.remove('open');
-      });
-    });
-  }
-
-  initMenu();
-  document.addEventListener('astro:after-swap', initMenu);
+    // Close menu when a nav link is clicked
+    const nav = document.getElementById('nav-menu');
+    if (nav && target.closest('#nav-menu a')) {
+      const burger = document.getElementById('menu-toggle');
+      burger?.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('open');
+    }
+  });
 </script>

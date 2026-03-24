@@ -27,6 +27,15 @@ const { title, description, ogImage, articleDate } = Astro.props;
         document.documentElement.setAttribute('data-theme', saved || preferred);
       })();
     </script>
+    <!-- Preserve theme across View Transitions swaps -->
+    <script is:inline>
+      document.addEventListener('astro:before-swap', function (e) {
+        var theme = document.documentElement.getAttribute('data-theme');
+        if (theme) {
+          e.newDocument.documentElement.setAttribute('data-theme', theme);
+        }
+      });
+    </script>
     <!-- Umami analytics — production only -->
     {import.meta.env.PROD && (
       <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="431a9028-1647-4c44-b173-a317eba811c7"></script>
