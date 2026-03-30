@@ -11,7 +11,7 @@
   {
     "url": "https://daeus.blog/2026/01/18/game-theory-patterns-at-work/",
     "title": "Game Theory Patterns at Work",
-    "author": null,
+    "author": "Daeus Jorento",
     "publishedDate": "2026-01-18",
     "addedDate": "2026-03-30",
     "thoughts": "Could be useful for navigating corporate life",
@@ -19,7 +19,7 @@
   },
   {
     "url": "https://essays.fnnch.com/make-a-living",
-    "title": "Admit It's a Business",
+    "title": "How to Make a Living as an Artist",
     "author": null,
     "publishedDate": null,
     "addedDate": "2026-03-30",
@@ -28,9 +28,9 @@
   },
   {
     "url": "https://www.politico.com/news/magazine/2026/03/07/soviet-spy-america-cold-war-00755831",
-    "title": "Untitled",
-    "author": null,
-    "publishedDate": null,
+    "title": "They Came to Spy on America. They Stayed to Coach Little League.",
+    "author": "Zach Dorfman",
+    "publishedDate": "2026-03-07",
     "addedDate": "2026-03-29",
     "thoughts": "One of the most insane stories",
     "rating": 5
@@ -100,9 +100,9 @@
   },
   {
     "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/#toc_1",
-    "title": "{ Mario Zechner }",
-    "author": null,
-    "publishedDate": null,
+    "title": "Thoughts on slowing the fuck down",
+    "author": "Mario Zechner",
+    "publishedDate": "2026-03-25",
     "addedDate": "2026-03-28",
     "thoughts": "Experience some friction now pays dividends later on",
     "rating": 4
@@ -126,9 +126,9 @@
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech",
-    "title": "Untitled",
-    "author": null,
-    "publishedDate": null,
+    "title": "Claude Code and the Great Productivity Panic of 2026",
+    "author": "Issie Lapowsky",
+    "publishedDate": "2026-02-26",
     "addedDate": "2026-03-24",
     "thoughts": "Time to think about what NOT to build",
     "rating": 4
@@ -207,7 +207,7 @@
   },
   {
     "url": "https://pluralistic.net/2025/03/13/electronic-whipping/#youre-next",
-    "title": "Pluralistic: The future of Amazon coders is the present of Amazon warehouse workers (13 Mar 2025)",
+    "title": "The future of Amazon coders is the present of Amazon warehouse workers",
     "author": "Cory Doctorow",
     "publishedDate": "2025-03-13",
     "addedDate": "2026-03-20",
