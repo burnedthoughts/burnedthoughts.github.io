@@ -1,5 +1,166 @@
 [
   {
+    "url": "https://hawksley.org/2026/02/17/timeframe.html",
+    "title": "How I built Timeframe, our family e-paper dashboard",
+    "author": "Joel Hawksley",
+    "publishedDate": "2026-02-17",
+    "addedDate": "2026-03-30",
+    "thoughts": "Pretty cool",
+    "rating": 3
+  },
+  {
+    "url": "https://daeus.blog/2026/01/18/game-theory-patterns-at-work/",
+    "title": "Game Theory Patterns at Work",
+    "author": null,
+    "publishedDate": "2026-01-18",
+    "addedDate": "2026-03-30",
+    "thoughts": "Could be useful for navigating corporate life",
+    "rating": 4
+  },
+  {
+    "url": "https://essays.fnnch.com/make-a-living",
+    "title": "Admit It's a Business",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-30",
+    "thoughts": "Interesting",
+    "rating": 4
+  },
+  {
+    "url": "https://www.politico.com/news/magazine/2026/03/07/soviet-spy-america-cold-war-00755831",
+    "title": "Untitled",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-29",
+    "thoughts": "One of the most insane stories",
+    "rating": 5
+  },
+  {
+    "url": "https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/",
+    "title": "Shell Tricks That Actually Make Life Easier (And Save Your Sanity)",
+    "author": "Christian Hofstede-Kuhn",
+    "publishedDate": "2026-03-25",
+    "addedDate": "2026-03-29",
+    "thoughts": "Incredibly useful",
+    "rating": 5
+  },
+  {
+    "url": "https://kindxiaoming.github.io/blog/2024/kolmogorov-arnold-networks/",
+    "title": "Philosophical thoughts on Kolmogorov-Arnold Networks",
+    "author": "Ziming Liu",
+    "publishedDate": null,
+    "addedDate": "2026-03-29",
+    "thoughts": "Reminder to look into & implement KAN",
+    "rating": 3
+  },
+  {
+    "url": "https://worrydream.com/ExplorableExplanations/#reactiveDocument",
+    "title": "1. Reactive Documents",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-29",
+    "thoughts": "Really cool idea of making text \"an environment to think in\" rather than purely for consumption",
+    "rating": 5
+  },
+  {
+    "url": "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what",
+    "title": "We Haven’t Seen the Worst of What Gambling and Prediction Markets Will Do to America",
+    "author": "Derek Thompson",
+    "publishedDate": "2026-03-26",
+    "addedDate": "2026-03-28",
+    "thoughts": "Reminder: NEVER gamble especially via prediction markets",
+    "rating": 4
+  },
+  {
+    "url": "https://johnjwang.com/post/2026/03/27/why-are-executives-enabled-with-ai-but-ics-arent/",
+    "title": "Managing non-deterministic systems",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-28",
+    "thoughts": "Spot on",
+    "rating": 4
+  },
+  {
+    "url": "https://sightlessscribbles.com/posts/the-paperwork-flood/",
+    "title": "The 'Paperwork Flood': How I Drowned a Bureaucrat before dinner.",
+    "author": null,
+    "publishedDate": "2026-03-25",
+    "addedDate": "2026-03-28",
+    "thoughts": "Great example of malicious compliance",
+    "rating": 4
+  },
+  {
+    "url": "https://マリウス.com/hold-on-to-your-hardware/",
+    "title": "Hold on to Your Hardware",
+    "author": null,
+    "publishedDate": "2026-02-19",
+    "addedDate": "2026-03-28",
+    "thoughts": "Dystopian future where consumers have 0 ownership and rent everything instead",
+    "rating": 5
+  },
+  {
+    "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/#toc_1",
+    "title": "{ Mario Zechner }",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-28",
+    "thoughts": "Experience some friction now pays dividends later on",
+    "rating": 4
+  },
+  {
+    "url": "https://ngrok.com/blog/quantization#what-is-quantization",
+    "title": "Quantization from the ground up",
+    "author": "Sam Rose",
+    "publishedDate": "2026-03-25",
+    "addedDate": "2026-03-28",
+    "thoughts": "Real good intro to quantization in LLMs",
+    "rating": 5
+  },
+  {
+    "url": "https://paulgraham.com/kids.html",
+    "title": "Having Kids",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-24",
+    "rating": 4
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech",
+    "title": "Untitled",
+    "author": null,
+    "publishedDate": null,
+    "addedDate": "2026-03-24",
+    "thoughts": "Time to think about what NOT to build",
+    "rating": 4
+  },
+  {
+    "url": "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/",
+    "title": "I'm OK being left behind, thanks!",
+    "author": "Terence Eden",
+    "publishedDate": "2026-03-20",
+    "addedDate": "2026-03-24",
+    "thoughts": "Pretty relevant to AI FOMO rn",
+    "rating": 4
+  },
+  {
+    "url": "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html",
+    "title": "So where are all the AI apps?",
+    "author": "Alexis Gallagher & Rens Dimmendaal",
+    "publishedDate": null,
+    "addedDate": "2026-03-24",
+    "thoughts": "A rational take on all the 10x 100x productivity engineers",
+    "rating": 4
+  },
+  {
+    "url": "https://www.joanwestenberg.com/collaboration-is-bullshit/",
+    "title": "&quot;Collaboration&quot; is bullshit.",
+    "author": "JA Westenberg",
+    "publishedDate": "2026-03-22",
+    "addedDate": "2026-03-24",
+    "thoughts": "Real",
+    "rating": 4
+  },
+  {
     "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
     "title": "Some Things Just Take Time",
     "author": "Armin Ronacher",
